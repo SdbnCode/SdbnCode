@@ -2,17 +2,20 @@
 body{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
-
-.bio{
+bio{
+    display: flex;
     align-items: start;
     height: 50%;
+    align-self: stretch;
+
 }
 
 content{
 display: flex;
-flex-direction: row;
+flex-direction: column;
+flex-basis: 100px ;
 }
 
 
