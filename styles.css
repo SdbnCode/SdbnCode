@@ -1,21 +1,44 @@
-
-body{
+body {
     display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between; 
+    background-color: #005070;
+    color: #f7f6f6;
+    margin: 0; 
 }
-bio{
+
+.background {
     display: flex;
-    align-items: start;
-    height: 50%;
-    align-self: stretch;
-
+    justify-content: space-around;
 }
 
-content{
-display: flex;
-flex-direction: column;
-flex-basis: 100px ;
+.profile {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    background-color: #49c6dd;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: stretch;
 }
 
+.profile-picture {
+    height: 100px;
+    width: 100px;  
+    align-self: center;
+    margin-top: 10px;
+    border-radius: 50%;
+}
 
+.content {
+    display: flex;
+    flex: 75%;
+    flex-direction: column;
+    background-color: #f24c62;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
