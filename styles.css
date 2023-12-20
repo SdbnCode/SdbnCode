@@ -16,7 +16,7 @@ body {
     justify-content: space-around;
 }
 
-.profile {
+.sidebar{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -26,7 +26,13 @@ body {
     border-radius: 5px;
     text-align: center;
     align-items: stretch;
-    
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
 }
 
 .profile-picture {
@@ -45,6 +51,12 @@ body {
     color: white;
 }
 
+.Linkedin{
+    height: 50px;
+    width: 50x;  
+    align-self: center;
+    border-radius: 50%;
+}
 
 .content {
     display: flex;
