@@ -26,13 +26,16 @@ body {
     border-radius: 5px;
     text-align: center;
     align-items: stretch;
+    margin: 5px;
+    font-size: 24px;
 }
+
 
 .profile {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     text-align: center;
+    gap: 10px;
 }
 
 .profile-picture {
@@ -40,6 +43,7 @@ body {
     width: 100px;  
     align-self: center;
     border-radius: 50%;
+    margin-top: 25px;
 }
 
 .profile-name{
@@ -58,6 +62,14 @@ body {
     border-radius: 50%;
 }
 
+.Github{
+    height: 50px;
+    width: 50x;  
+    align-self: center;
+    border-radius: 100%;
+    background-color: 49c6dd;
+}
+
 .content {
     display: flex;
     flex: 75%;
@@ -66,4 +78,11 @@ body {
     border-radius: 5px;
     justify-content: center;
     text-align: center;
+    margin: 5px;
+}
+
+.banner{
+    width:90%;
+    height:65%;
+    align-self: center;
 }
