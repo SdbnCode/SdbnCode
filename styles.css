@@ -76,9 +76,10 @@ body {
     flex-direction: column;
     background-color: #f24c62;
     border-radius: 5px;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     margin: 5px;
+    padding: 25px;
 }
 
 .banner{
