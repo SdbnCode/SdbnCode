@@ -71,6 +71,18 @@ body {
     background-color: 49c6dd;
 }
 
+.resume{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    border-radius: 50%;
+}
+.email{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    border-radius: 50%;
+}
 .content {
     display: flex;
     flex: 75%;
