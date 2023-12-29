@@ -10,7 +10,6 @@ body {
     margin: 0; 
 }
 
-
 .background {
     display: flex;
     justify-content: space-around;
@@ -30,7 +29,6 @@ body {
     font-size: 24px;
     height: 50%;
 }
-
 
 .profile {
     display: flex;
@@ -56,34 +54,34 @@ body {
     color: white;
 }
 
-.Linkedin{
-    height: 50px;
-    width: 50x;  
-    align-self: center;
-    border-radius: 50%;
+.socials{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-
-.Github{
+.social{
     height: 50px;
     width: 50px;  
-    align-self: center;
-    border-radius: 100%;
-    background-color: 49c6dd;
+    border-radius: 50%;
 }
 
-.resume{
+.tools{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.tool{
+    display: flex;
     height: 50px;
     width: 50px;
     align-self: center;
-    border-radius: 50%;
 }
-.email{
-    height: 50px;
-    width: 50px;
-    align-self: center;
-    border-radius: 50%;
-}
-.content {
+
+.content{
     display: flex;
     flex: 75%;
     flex-direction: column;
