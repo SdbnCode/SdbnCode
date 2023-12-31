@@ -47,11 +47,26 @@ body {
 
 .profile-name{
     font-weight: bold;
+    margin: 0px;
 }
 
 .profile-links{
     text-decoration: none;
     color: white;
+}
+
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.tool{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-self: center;
 }
 
 .socials{
@@ -68,19 +83,12 @@ body {
     border-radius: 50%;
 }
 
-.tools{
+.css{
     display: flex;
-    flex-direction: row;
+    height: 55px;
+    width: 60px;
     align-self: center;
 }
-
-.tool{
-    display: flex;
-    height: 50px;
-    width: 50px;
-    align-self: center;
-}
-
 .content{
     display: flex;
     flex: 75%;
