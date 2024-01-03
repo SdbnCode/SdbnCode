@@ -15,7 +15,7 @@ body {
     justify-content: space-around;
 }
 
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -28,7 +28,10 @@ body {
     margin: 10px;
     font-size: 24px;
     height: 50%;
+    position: sticky;
+    top: 0;
 }
+
 
 .profile {
     display: flex;
@@ -63,8 +66,7 @@ body {
 }
 
 .tools-logo,
-.socials-logo
-{
+.socials-logo{
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -82,15 +84,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 40px;
+    padding: px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
 .tools-header,
 .socials-header{
 color: paleturquoise;
 font: bolder;
 margin: 0px;
+padding-bottom: 10px;
 }
 
 .social{
