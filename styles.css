@@ -103,7 +103,7 @@ body {
     display: flex;
     flex-direction: row;
     align-self: center;
-    justify-content: space-around; 
+    gap: 20px;
 }
 
 .tool{
