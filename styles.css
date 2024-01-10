@@ -23,19 +23,20 @@ body {
 }
 
 .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    flex: 30%;
+    gap: 20px;
+    width: 400px;
     background-color: #49c6dd;
     border-radius: 5px;
     text-align: center;
-    align-items: stretch;
+    align-items: center;
     margin: 15px;
     font-size: 24px;
-    height: 50%;
-    position: sticky;
-
+    overflow-y: auto;
 }
 
 .profile {
@@ -137,7 +138,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 15px;
+    padding: 17px;
     margin: 0px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -160,15 +161,15 @@ padding-bottom: 10px;
 }
 
 
-.content{
+.content {
     display: flex;
-    flex: 75%;
+    flex: 1;
     flex-direction: column;
     background-color: #f24c62;
     border-radius: 5px;
     justify-content: space-between;
     text-align: center;
-    margin: 10px;
+    margin: 15px 15px 10px 450px; /* Add margin on the right side to create space for the sidebar */
     padding: 25px;
 }
 
