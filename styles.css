@@ -169,14 +169,14 @@ padding-bottom: 10px;
     border-radius: 5px;
     justify-content: space-between;
     text-align: center;
-    margin: 15px 15px 10px 450px; /* Add margin on the right side to create space for the sidebar */
+    margin: 15px 15px 10px 450px;
     padding: 25px;
 }
 
-.banner{
-    width:95%;
-    height:65%;
-    align-self: center;
+.banner {
+    width: 100%; /* Adjust the width as needed */
+    max-height: 300px; /* Set a maximum height to maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire container */
     border-radius: 5px;
 }
 
