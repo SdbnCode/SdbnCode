@@ -12,14 +12,15 @@ body {
     height: 100%;
     width: 100%;
     justify-content: space-between; 
-    background-color: #005070;
-    color: #f7f6f6;
+    background-color: #FBBDBA;
+    color: #EEE3EC;
     margin: 0; 
 }
 
 .background {
     display: flex;
     justify-content: space-around;
+    height: 100%;
 }
 
 .sidebar {
@@ -28,17 +29,23 @@ body {
     left: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 55px;
     width: 400px;
-    background-color: #49c6dd;
+    background-color: #1ccbd7;
     border-radius: 5px;
     text-align: center;
     align-items: center;
     margin: 15px;
     font-size: 24px;
+    height: 75%;
     overflow-y: auto;
 }
 
+.profile,
+.tools,
+.socials {
+    width: 100%; /* Ensure child containers take up the full width */
+}
 .profile {
     display: flex;
     flex-direction: column;
@@ -61,7 +68,7 @@ body {
 
 .profile-links{
     text-decoration: none;
-    color: white;
+    color: #C3DDeB;
 }
 
 .information{
@@ -134,19 +141,19 @@ p{
 
 
 .socials{
-    background: white;
+    background: #C3DDeB;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 17px;
+    justify-content: center;
     margin: 0px;
+    height: 75%;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 .tools-header,
 .socials-header{
-color: paleturquoise;
+color: #EEE3EC;
 font: bolder;
 margin: 0px;
 padding-bottom: 10px;
@@ -165,7 +172,7 @@ padding-bottom: 10px;
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: #f24c62;
+    background-color: #e26071;
     border-radius: 5px;
     justify-content: space-between;
     text-align: center;
@@ -184,5 +191,5 @@ padding-bottom: 10px;
 display: flex;
 padding: 10px;
 text-decoration: none;
-color:white;
+color:#EEE3EC;
 }
