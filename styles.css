@@ -221,6 +221,7 @@ button{
     border-color: #1ccbd7;
     border-style: solid;
     border-radius: 5px;
+    cursor:pointer;
 }
 
 .contact-links{
