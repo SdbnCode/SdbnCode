@@ -120,7 +120,7 @@ body {
     flex-direction: column;
     margin: 0px;
     gap: 10px;
-    
+    padding-top: 15px;
 }
 
 .info-location,
@@ -148,6 +148,8 @@ body {
     display: flex;
     flex-direction: column;
     align-self: center;
+    padding-bottom: 5px;
+
 }
 
 .tools-logo,
