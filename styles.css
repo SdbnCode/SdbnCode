@@ -1,10 +1,10 @@
 :root {
-    --main-background: #f7dbdd; 
-    --navbar-background: #24305E;
-    --navbar-hover: #334386; 
+    --main-background: #ffffff; 
+    --navbar-background: #3e4874;
+    --navbar-hover: #455285; 
     --sidebar-background: #A8D0E6; 
     --sidebar-social-background: #92c2db; 
-    --content-background: #F76C6C ;
+    --content-background: #ec8282 ;
     --button-background: #e74848;
     --button-border: #e52121; 
     --border: #C0C0C0; 
