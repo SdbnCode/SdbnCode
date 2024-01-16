@@ -7,8 +7,3 @@ The goal will be to:
 
 In order to do this I will make be doing my best to code for at least one hour every day and hopefully continue this habit throughout the next semester of classes.
 
-Color Themes
----------------------------------------
-https://hookagency.com/wp-content/uploads/2020/01/purple-blue-purple-slate-website-color-scheme-2020.jpg
-
-https://getflywheel.com/layout/wp-content/uploads/2019/05/coolors-color-generator-784x341.png
