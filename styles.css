@@ -312,6 +312,7 @@ button{
 .project-item{
     background: var(--sidebar-background);
     padding: 15px;
+    border-radius: 5px;
 }
 
 .contact-links{
