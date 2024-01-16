@@ -6,28 +6,41 @@
     --sidebar-social-background: #5372a1; 
     --sidebar-border: #3e4874;
     --content-background: #3e4874;
-    --button-background: #5372a1;
+    --button-background: #3e4874;
     --button-border: #7b86b7; 
     --border: #3e4874; 
-    --font-h2: #89b8dc;
+    --font-h1: #c4ddf0;
+    --font-h2: #c4ddf0;
     --font-h3: #c4ddf0;
     --font-h4: #c4ddf0;
-    --font-h5: #8cafc9;
+    --font-h5: #c4ddf0;
     --font-h6: #c4ddf0;
 }
 
-h2{
+h1{
+    font-size: 1.60rem;
     color: var(--font-h2);
-    margin: 5;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px var(--content-background);
+}
+
+h2{
+    font-size: 1.5rem;
+    color:var(--font-h2);
+    margin: 0;
+    padding: 15px 0 15px 0;
 }
 
 h3{
     font-size: 1.5rem;
     color:var(--font-h3);
+    margin: 0;
 }
 
 h4{
     margin: 0;
+    font-weight: normal;
     font-size: 1rem;
     color:var(--font-h4);
 }
@@ -44,7 +57,7 @@ h6{
     font-weight: normal;
     margin: 0;
     padding: 5px 0 0 0;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 
@@ -145,7 +158,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    gap: 10px;
+    gap: 20px;
     padding-top: 15px;
 }
 
@@ -155,9 +168,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 18px;
     gap: 20px;
-
 }
 
 .city,
@@ -167,7 +178,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    font-size: 18px;
 } 
 
 .tools{
@@ -175,7 +185,6 @@ body {
     flex-direction: column;
     align-self: center;
     padding-bottom: 5px;
-
 }
 
 .tools-logo,
@@ -222,12 +231,12 @@ body {
     padding: 0 0 15px 0 ;
 }
 
-.profile-name
+
 .tools-header,
 .socials-header{
     font: bolder;
     margin: 0px;
-    padding: 0 0 010px;
+    padding: 0 0 15px 0;
 }
 
 .social{
@@ -276,8 +285,9 @@ body {
 .website-content{
     display: flex;  
     text-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
 .description{
     display: flex;
     flex-direction: column;
@@ -286,15 +296,22 @@ body {
     gap: 25px;
 }
 
+
 button{
     height: 50px;
     width: 100px;
     background-color: var(--button-background);
-    color: var(--font-h4);
     border-color: var(--button-border);
+    color: var(--font-h3);
     border-style: solid;
     border-radius: 5px;
     cursor:pointer;
+}
+
+
+.project-item{
+    background: var(--sidebar-background);
+    padding: 15px;
 }
 
 .contact-links{
