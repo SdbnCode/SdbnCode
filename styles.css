@@ -1,20 +1,21 @@
 :root {
-    --main-background: #ffffff; 
+    --main-background: #8bb1c5; 
     --navbar-background: #3e4874;
     --navbar-hover: #455285; 
-    --sidebar-background: #A8D0E6; 
-    --sidebar-social-background: #92c2db; 
-    --content-background: #ec8282 ;
-    --button-background: #e74848;
-    --button-border: #e52121; 
-    --border: #C0C0C0; 
+    --sidebar-background: #5372a1; 
+    --sidebar-social-background: #5372a1; 
+    --sidebar-border: #3e4874;
+    --content-background: #3e4874;
+    --button-background: #5678a8;
+    --button-border: #92c2db; 
+    --border: #3e4874; 
     --font: ;
 }
 
 h3{
-    font-size: 2cap;
-    margin: 0 0 5px 0 ;
+    font-size: 1.5rem;
 }
+
 h4{
     margin: 0;
     font-size: 1rem;
@@ -74,6 +75,7 @@ body {
     gap: 10px;
     width: 400px;
     background-color: var(--sidebar-background);
+ 
     border-radius: 5px;
     text-align: center;
     align-items: center;
@@ -83,18 +85,21 @@ body {
     overflow-y: auto;
 }
 
-.profile,
-.tools,
-.socials {
+.profile-description,
+.info-language,
+.tools-logo {
     width: 100%;
+    border-bottom: 2px solid var(--border); 
+    padding-bottom: 20px;
 }
+
 .profile {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: var(--sidebar-social-background);
     gap: 10px;
-    padding: 30px 0 30px 0;
+    padding: 30px 0 0 0;
 }
 
 .profile-picture {
@@ -212,7 +217,7 @@ p{
     color: #EEE3EC;
     font: bolder;
     margin: 0px;
-    padding: 10px;
+    padding: 0 0 010px;
 }
 
 .social{
@@ -241,10 +246,10 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:url(./image/Maple-banner.png);
+    background-image:url(./image/Bubble-Backgrounds.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 100%;
     height: 300px;
     width: auto;
     gap: 10px;
