@@ -287,15 +287,17 @@ hr{
 }
 
 .site{
-    width: 30%;
+    width: 300px;
+    height: 150px;
     border-radius: 5px;
     border-color: var(--button-border);
     border-style:solid;
     border-width: 4px;
 }
 
-.site-alt{
-    width: 30%;
+.site-alt {
+    width: 300px;
+    height: 150px;
     border-radius: 5px;
     border-color: var(--button-border-alt);
     border-style:solid;
@@ -347,6 +349,7 @@ button{
 .project-item-alt {
     padding: 15px;
     border-radius: 5px;
+    height: 200px;
 }
 
 .contact-links{
