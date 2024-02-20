@@ -349,7 +349,6 @@ button{
 .project-item-alt {
     padding: 15px;
     border-radius: 5px;
-    height: 200px;
 }
 
 .contact-links{
@@ -384,7 +383,6 @@ color:var(--font-h4);
         background-color: var(--navbar-background);
         overflow: hidden;
         border-radius: 0 0 10px 10px;
-        
     }
     .banner{
         height: 200px;
@@ -409,6 +407,7 @@ color:var(--font-h4);
     .project-item-alt{
         padding: 10px;
     }
+
     h1{
         font-size: 1rem;
     }
@@ -416,7 +415,6 @@ color:var(--font-h4);
         padding: 10px 0 10px 10px;
         
     }
-
     .site-alt,
     .site{
         height: 100%;
