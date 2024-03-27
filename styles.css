@@ -358,7 +358,7 @@ text-decoration: none;
 color:var(--font-h4);
 }
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
     .background {
         flex-direction: column;
     }
