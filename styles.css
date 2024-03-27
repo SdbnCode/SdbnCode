@@ -37,7 +37,7 @@ h2{
 h3{
     font-size: 1.5em;
     color:var(--font-h3);
-    margin: 0;
+    margin: 0 0 1em 0;
 }
 
 h4{
