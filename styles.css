@@ -197,14 +197,12 @@ hr{
     padding-bottom: 5px;
 }
 
-.tools-logo,
-.socials-logo{
+.tools-logo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
-
 }
 
 .tool{
@@ -214,6 +212,13 @@ hr{
     align-items: center;
     padding: 5px;
 
+}
+
+.tool-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .tool img {
@@ -241,6 +246,13 @@ hr{
     padding: 0 0 15px 0 ;
 }
 
+.socials-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 
 .tools-header,
 .socials-header{
