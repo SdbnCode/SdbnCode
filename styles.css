@@ -20,7 +20,7 @@
 }
 
 h1{
-    font-size: 1.8em;
+    font-size: 1.65em;
     color: var(--font-h1);
     margin: 10px;
     text-align: center;
@@ -28,7 +28,7 @@ h1{
 }
 
 h2{
-    font-size: 1.75em;
+    font-size: 1.6em;
     color:var(--font-h2);
     margin: 0;
     padding: 15px 0 15px 0;
