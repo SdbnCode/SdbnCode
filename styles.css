@@ -226,6 +226,11 @@ hr{
     width: 45px;
 }
 
+#nodejs{
+    height: 45px;
+    width: 55px;
+}
+
 .tool p {
     margin: 0;
     padding: 5px;
