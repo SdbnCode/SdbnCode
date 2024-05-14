@@ -19,7 +19,7 @@
     --font-h6: #c4ddf0;
 }
 
-h1{
+h1 {
     font-size: 1.65em;
     color: var(--font-h1);
     margin: 10px;
@@ -27,27 +27,27 @@ h1{
     text-shadow: 2px 2px 4px var(--content-background);
 }
 
-h2{
+h2 {
     font-size: 1.6em;
     color:var(--font-h2);
     margin: 0;
     padding: 15px 0 15px 0;
 }
 
-h3{
+h3 {
     font-size: 1.5em;
     color:var(--font-h3);
     margin: 0 0 1em 0;
 }
 
-h4{
+h4 {
     color:var(--font-h4);
     font-size: 1.2em;
     font-weight: normal;
     margin: 0;
 }
 
-h5{
+h5 {
     color:var(--font-h5);
     text-align: left;
     font-size: 1em;
@@ -55,7 +55,7 @@ h5{
     padding-bottom: 15px;
 }
 
-h6{
+h6 {
     color: var(--font-h6);
     font-weight: normal;
     margin: 0;
@@ -76,8 +76,13 @@ body {
     margin: 0; 
 }
 
-hr{
+.sidebar hr {
     width: 80%;
+    border-color: var(--sidebar-social-background);
+}
+
+body hr{
+    width: 100%;
     border-color: var(--sidebar-social-background);
 }
 
@@ -89,7 +94,6 @@ hr{
     background-color: var(--navbar-background);
     overflow: hidden;
     border-radius: 0 0 10px 10px;
-
 }
 
 .navbar a {
@@ -105,13 +109,6 @@ hr{
     background-color: var(--navbar-hover);
 }
 
-
-.background {
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-}
-
 .sidebar {
     position: fixed;
     top: 45px;
@@ -121,7 +118,6 @@ hr{
     gap: 10px;
     width: 400px;
     background-color: var(--sidebar-background);
- 
     border-radius: 5px;
     text-align: center;
     align-items: center;
@@ -151,20 +147,19 @@ hr{
     width: 100px;  
     align-self: center;
     border-radius: 50%;
-   
 }
 
-.profile-name{
+.profile-name {
     font-weight: bold;
     margin: 0px;
 }
 
-.profile-links{
+.profile-links {
     text-decoration: none;
     color: #C3DDeB;
 }
 
-.information{
+.information {
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -174,7 +169,7 @@ hr{
 
 .info-location,
 .info-education,
-.info-language{
+.info-language {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -183,21 +178,21 @@ hr{
 
 .city,
 .school,
-.language{
+.language {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
 } 
 
-.tools{
+.tools {
     display: flex;
     flex-direction: column;
     align-self: center;
     padding-bottom: 5px;
 }
 
-.tools-logo{
+.tools-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,7 +200,7 @@ hr{
     gap: 5px;
 }
 
-.tool{
+.tool {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -226,7 +221,7 @@ hr{
     width: 45px;
 }
 
-#nodejs{
+#nodejs {
     height: 45px;
     width: 55px;
 }
@@ -239,7 +234,7 @@ hr{
 
 
 
-.socials{
+.socials {
     background: var(--sidebar-social-background);
     display: flex;
     flex-direction: column;
@@ -251,7 +246,7 @@ hr{
     padding: 0 0 15px 0 ;
 }
 
-.socials-logo{
+.socials-logo {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -260,20 +255,19 @@ hr{
 }
 
 .tools-header,
-.socials-header{
+.socials-header {
     font: bolder;
     margin: 0px;
     padding: 0 0 15px 0;
 }
 
-.social{
+.social {
     height: 50px;
     width: 50px;  
     border-radius: 50%;
     margin: 0 10px;
 
 }
-
 
 .content {
     display: flex;
@@ -288,8 +282,7 @@ hr{
     padding: 25px;
 }
 
-
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -303,7 +296,7 @@ hr{
     gap: 10px;
 }
 
-.site{
+.site {
     width: 300px;
     height: 150px;
     border-radius: 5px;
@@ -321,13 +314,13 @@ hr{
     border-width: 4px;
 }
 
-.website-content{
+.website-content {
     display: flex;  
     text-wrap: wrap;
     justify-content: space-between;
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -335,8 +328,7 @@ hr{
     gap: 25px;
 }
 
-
-button{
+button {
     height: 50px;
     width: 100px;
     background-color: var(--button-background);
@@ -346,6 +338,7 @@ button{
     border-radius: 5px;
     cursor:pointer;
 }
+
 .button-alt {
     height: 50px;
     width: 100px;
@@ -357,10 +350,9 @@ button{
     cursor:pointer;
 }
 
-.project-item{
+.project-item {
     background: var(--sidebar-background);
 }
-
 
 .project-item,
 .project-item-alt {
@@ -368,7 +360,7 @@ button{
     border-radius: 5px;
 }
 
-.contact-links{
+.contact-links {
 display: flex;
 padding: 10px;
 text-decoration: none;
@@ -404,7 +396,7 @@ color:var(--font-h4);
     .banner{
         height: 200px;
     }
-    .website-content{
+    .website-content {
         position:relative;
         display: flex;
         flex-direction: column;
@@ -421,26 +413,26 @@ color:var(--font-h4);
 
     }
     .project-item
-    .project-item-alt{
+    .project-item-alt {
         padding: 10px;
     }
 
-    h1{
+    h1 {
         font-size: 1rem;
     }
-    h2{
+    h2 {
         padding: 10px 0 10px 10px;
         
     }
     .site-alt,
-    .site{
+    .site {
         height: 100%;
         width: 99%;
     } 
-    .site{
+    .site {
         border: 3px solid var(--button-border)
     }
-    .site-alt{
+    .site-alt {
         border: 3px solid var(--button-border-alt)
     }
 }
