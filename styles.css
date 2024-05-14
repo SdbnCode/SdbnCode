@@ -83,7 +83,8 @@ body {
 
 body hr{
     width: 100%;
-    border-color: var(--sidebar-social-background);
+    border-color: var(--main-background);
+
 }
 
 .navbar {
@@ -296,6 +297,9 @@ body hr{
     gap: 10px;
 }
 
+.photo {
+    padding: 10px;
+}
 .site {
     width: 300px;
     height: 150px;
@@ -356,7 +360,10 @@ button {
 
 .project-item,
 .project-item-alt {
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
     border-radius: 5px;
 }
 
