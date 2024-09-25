@@ -1,198 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="JavaScript" href="./JavaScript.js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="JavaScript" href="./JavaScript.js" />
     <title>Steven Nguyen</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar">
-        <a href="#content">Home</a>
-        <a href="#project">Projects</a>
-        <a href="#contact">Contact Me</a>
+      <a href="#content">Home</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact Me</a>
     </nav>
 
     <div class="background">
-        <div id="sidebar" class="sidebar">
-            <div class="profile">
-                <img class="profile-picture" src="image/headshot.jpg" alt="Steven's Profile Picture">
-                <h3 class="profile-name">Steven Nguyen</h3>
-                <h4 class="profile-description">Software Developer</h4>
-            </div>
-            <hr>
-            <div class="information">
-                <div class="info-location">
-                    <h4>Location:</h4>
-                    <div class="city">
-                        <h4>Toronto, Canada</h4>
-                    </div>
-                </div>
-                <div class="info-education">
-                    <h4>Education:</h4>
-                    <div class="school">
-                        <h4>BCS University of Windsor</h4>
-                        <h4>BA University of Toronto</h4>
-                    </div>
-                </div>
-                <div class="info-language">
-                    <h4>Languages:</h4>
-                    <div class="language">
-                        <h4>English</h4>
-                        <h4>Vietnamese</h4>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="tools">
-                <h3 class="tools-header">My Favorite Technologies</h3>
-                <div class="tools-logo">
-                    <div class="tool-row">
-                        <div class="tool">
-                            <img src="image/html.png" alt="HTML">
-                            <h6>HTML</h6>
-                        </div>
-                        <div class="tool">
-                            <img src="image/css (2).png" alt="CSS">
-                            <h6>CSS</h6>
-                        </div>
-                        <div class="tool">
-                            <img src="image/js.png" alt="JavaScript">
-                            <h6>JavaScript</h6>
-                        </div>
-                        <div class="tool">
-                            <img src="image/Java.png" alt="Java">
-                            <h6>Java</h6>
-                        </div>
-                    </div>
-                    <div class="tool-row">
-                        <div class="tool">
-                            <img src="image/react.png" alt="React">
-                            <h6>React</h6>
-                        </div>
-                        <div class="tool">
-                            <img src="image/Git.png" alt="Git">
-                            <h6>Git</h6>
-                        </div>
-                        <div class="tool">
-                            <img src="image/Postgresql.png" alt="Postgresql">
-                            <h6>Postgresql</h6>
-                        </div>
-                        <div class="tool">
-                            <img id="nodejs" src="image/nodejs.png" alt="Nodejs">
-                            <h6>Nodejs</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="socials">
-                <h3 class="socials-header">Connect with Me</h3>
-                <div class="socials-logo">
-                    <a href="https://www.linkedin.com/in/stevendbnguyen/" target="_blank" rel="noopener noreferrer">
-                        <img class="social" src="image/Linkedin.png" alt="LinkedIn">
-                    </a>
-                    <a href="https://github.com/SdbnCode" target="_blank" rel="noopener noreferrer">
-                        <img class="social" src="image/github-logo1.png" alt="GitHub">
-                    </a>
-                    <a href="mailto:stevendbnguyen@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <img class="social" src="image/email.png" alt="Email">
-                    </a>
-                </div>
-            </div>
+      <div id="sidebar" class="sidebar">
+        <div class="profile">
+          <img
+            class="profile-picture"
+            src="image/headshot.jpg"
+            alt="Steven's Profile Picture"
+          />
+          <h3 class="profile-name">Steven Nguyen</h3>
+          <h4 class="profile-description">Software Developer</h4>
         </div>
-   
-        <div id="content" class="content">
-            <div class="banner">
-                <h1>I am software developer from Toronto, Ontario who is passionate about sports, analytics, and creating beautiful web pages</h1>
-                <h1>Follow me as I develop projects to help anyone succeed in their competitive endeavour!</h1> 
+        <hr />
+        <div class="information">
+          <div class="info-location">
+            <h4>Location:</h4>
+            <div class="city">
+              <h4>Toronto, Canada</h4>
             </div>
-            <div id="project">
-                <h2>Projects</h2>
-                <hr>
-                <div class="project-item-alt">
-                    <h3>Life Block 2.0</h3>
-                    <div class="website-content">
-                        <div class="description">
-                            <h4 class="project-text">A Parametric Insurance Application leveraging the Ethereum Blockchain Framework, Smart Contracts and Soulbound Tokens to handle insurance premium pricing and claims</h4>
-                            <h4> Won Capco's Internal Innovation Challenge!</h4>
-                            <a href="https://github.com/baccarani/life-block-2.0" target="_blank">
-                                <button type="button" class="button-alt">Visit Project</button>
-                            </a>
-                        </div>
-                        <div class="photo">
-                            <img class="site-alt" src="./image/LifeBlock.png" alt="picture of CheckYourSource">
-                        </div>
-                    </div>
-                </div>
-                    <div class="project-item">
-                        <h3>Athlete's Arena</h3>
-                        <div class="website-content">
-                            <div class="description">
-                                <h4 class="project-text">E-commerence Website using JavaScript to handle adding to cart functions and PHP for user registration and login. Hosted on AWS using a LAMP stack.</h4>
-                                <h4 class="project-text">Please do not use real information to create an account!</h4>
-                                <a href="http://99.79.36.85/login.php" target="_blank">
-                                    <button type="button" class="button">Visit Project</button>
-                                </a>
-                            </div>
-                            <div class="photo">
-                                <img class="site" src="./image/AtheletesArena.png" alt="picture of E-commerence Website">
-                            </div>
-                        </div>
-                    </div> 
-                <div class="project-item-alt">
-                    <h3>Check Your Source</h3>
-                    <div class="website-content">
-                        <div class="description">
-                            <h4 class="project-text">A user-friendly React web application that takes the search input, makes a call to an external API and displays the data via Chart.js</h4>
-                            <h4 class="project-text">Won 4th place at WinHack 2024!</h4>
-                            <a href="https://syndicategit.github.io/CheckYourSource/" target="_blank">
-                                <button type="button" class="button-alt">Visit Project</button>
-                            </a>
-                        </div>
-                        <div class="photo">
-                            <img class="site-alt" src="./image/CheckYourSource.png" alt="picture of CheckYourSource">
-                        </div>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <h3>Personal Website</h3>
-                    <div class="website-content">
-                        <div class="description">
-                            <h4 class="project-text">My personal website where I host all of my projects.</h4>
-                            <h4 class="project-text">Built using HTML and CSS.</h4>
-                            <a href="https://sdbncode.github.io/SdbnCode/" target="_blank">
-                                <button type="button" class="button">Visit Project</button>
-                            </a>
-                        </div>
-                        <div class="photo">
-                            <img class="site" src="./image/website.jpg" alt="picture of personal website">
-                        </div>
-                    </div>
-                </div>
-                <div class="project-item-alt">
-                    <h3>NASA Space Challenge</h3>
-                    <div class="website-content">
-                        <div class="description">
-                            <h4 class="project-text">Collaborated with a team to create a browser game aimed at promoting interest in space exploration.</h4>
-                            <h4 class="project-text">Leveraged HTML, CSS, and JavaScript to develop customization features and interactive web page elements. </h4>
-                            <a href="https://syndicategit.github.io/NASA_Hackathon_HDSRLP/" target="_blank">
-                                <button type="button" class="button-alt">Visit Project</button>
-                            </a>
-                        </div>
-                        <div class="photo">
-                            <img class="site-alt" src="./image/nasachallenge.png" alt="picture of Nasa Space Challenge">
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="info-education">
+            <h4>Education:</h4>
+            <div class="school">
+              <h4>BCS University of Windsor</h4>
+              <h4>BA University of Toronto</h4>
             </div>
-            <hr>
-            <div id="contact">
-                <h2>Contact Me</h2>
-                <a href="https://www.linkedin.com/in/stevendbnguyen/" class="contact-links" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/stevendbnguyen/</a>
-                <a href="https://github.com/SdbnCode" class="contact-links" target="_blank" rel="noopener noreferrer">https://github.com/SdbnCode</a>
-            </div> 
+          </div>
+          <div class="info-language">
+            <h4>Languages:</h4>
+            <div class="language">
+              <h4>English</h4>
+              <h4>Vietnamese</h4>
+            </div>
+          </div>
         </div>
+        <hr />
+        <div class="tools">
+          <h3 class="tools-header">My Favorite Technologies</h3>
+          <div class="tools-logo">
+            <div class="tool-row">
+              <div class="tool">
+                <img src="image/html.png" alt="HTML" />
+                <h6>HTML</h6>
+              </div>
+              <div class="tool">
+                <img src="image/css (2).png" alt="CSS" />
+                <h6>CSS</h6>
+              </div>
+              <div class="tool">
+                <img src="image/js.png" alt="JavaScript" />
+                <h6>JavaScript</h6>
+              </div>
+              <div class="tool">
+                <img src="image/Java.png" alt="Java" />
+                <h6>Java</h6>
+              </div>
+            </div>
+            <div class="tool-row">
+              <div class="tool">
+                <img src="image/react.png" alt="React" />
+                <h6>React</h6>
+              </div>
+              <div class="tool">
+                <img src="image/Git.png" alt="Git" />
+                <h6>Git</h6>
+              </div>
+              <div class="tool">
+                <img src="image/Postgresql.png" alt="Postgresql" />
+                <h6>Postgresql</h6>
+              </div>
+              <div class="tool">
+                <img id="nodejs" src="image/nodejs.png" alt="Nodejs" />
+                <h6>Nodejs</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="socials">
+          <h3 class="socials-header">Connect with Me</h3>
+          <div class="socials-logo">
+            <a
+              href="https://www.linkedin.com/in/stevendbnguyen/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="social" src="image/Linkedin.png" alt="LinkedIn" />
+            </a>
+            <a
+              href="https://github.com/SdbnCode"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="social" src="image/github-logo1.png" alt="GitHub" />
+            </a>
+            <a
+              href="mailto:stevendbnguyen@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="social" src="image/email.png" alt="Email" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="content" class="content">
+        <div class="banner">
+          <h1>
+            I am software developer from Toronto, Ontario who is passionate
+            about sports, analytics, and creating beautiful web pages
+          </h1>
+          <h1>
+            Follow me as I develop projects to help anyone succeed in their
+            competitive endeavour!
+          </h1>
+        </div>
+        <div id="project">
+          <h2>Projects</h2>
+          <hr />
+
+          <div class="project-item-alt">
+            <h3>NBA Reference Web Scrapper</h3>
+            <div class="website-content">
+              <div class="description">
+                <h4 class="project-text">
+                  A Python web scrapper using BeautifulSoup, Selenium, and
+                  Pandas libraries that extracts, clean, and stores the NBA
+                  player statistics from NBA reference to a .csv file for future
+                  projects.
+                </h4>
+                <a
+                  href="https://github.com/SdbnCode/WebScrappingNBAreference"
+                  target="_blank"
+                >
+                  <button type="button" class="button">Visit Project</button>
+                </a>
+              </div>
+              <div class="photo">
+                <img
+                  class="site"
+                  src="./image/NBAWebScrapper.png"
+                  alt="picture of Web Scrapper project"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <h3>Find Your Goat</h3>
+            <div class="website-content">
+              <div class="description">
+                <h4 class="project-text">
+                  A React web application that dynamically displays NBA player
+                  all time statistics using a customized Chart.js bar chart for
+                  visual comparison between two players.
+                </h4>
+
+                <a href="https://findyourgoat.onrender.com/" target="_blank">
+                  <button type="button" class="button">Visit Project</button>
+                </a>
+              </div>
+              <div class="photo">
+                <img
+                  class="site"
+                  src="./image/FindYourGoat.png"
+                  alt="picture of Find Your Goat"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="project-item-alt">
+            <h3>Life Block 2.0</h3>
+            <div class="website-content">
+              <div class="description">
+                <h4 class="project-text">
+                  A Parametric Insurance Application leveraging the Ethereum
+                  Blockchain Framework, Smart Contracts and Soulbound Tokens to
+                  handle insurance premium pricing and claims
+                </h4>
+                <h4>Won Capco's Internal Innovation Challenge!</h4>
+                <a
+                  href="https://github.com/baccarani/life-block-2.0"
+                  target="_blank"
+                >
+                  <button type="button" class="button-alt">
+                    Visit Project
+                  </button>
+                </a>
+              </div>
+              <div class="photo">
+                <img
+                  class="site-alt"
+                  src="./image/LifeBlock.png"
+                  alt="picture of Life Block 2.0"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <h3>Athlete's Arena</h3>
+            <div class="website-content">
+              <div class="description">
+                <h4 class="project-text">
+                  E-commerence Website using JavaScript to handle adding to cart
+                  functions and PHP for user registration and login. Hosted on
+                  AWS using a LAMP stack.
+                </h4>
+                <h4 class="project-text">
+                  Please do not use real information to create an account!
+                </h4>
+                <a href="http://99.79.36.85/login.php" target="_blank">
+                  <button type="button" class="button">Visit Project</button>
+                </a>
+              </div>
+              <div class="photo">
+                <img
+                  class="site"
+                  src="./image/AtheletesArena.png"
+                  alt="picture of E-commerence Website"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="project-item-alt">
+            <h3>Check Your Source</h3>
+            <div class="website-content">
+              <div class="description">
+                <h4 class="project-text">
+                  A user-friendly React web application that takes the search
+                  input, makes a call to an external API and displays the data
+                  via Chart.js
+                </h4>
+                <h4 class="project-text">Won 4th place at WinHack 2024!</h4>
+                <a
+                  href="https://syndicategit.github.io/CheckYourSource/"
+                  target="_blank"
+                >
+                  <button type="button" class="button-alt">
+                    Visit Project
+                  </button>
+                </a>
+              </div>
+              <div class="photo">
+                <img
+                  class="site-alt"
+                  src="./image/CheckYourSource.png"
+                  alt="picture of CheckYourSource"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <h3>Personal Website</h3>
+            <div class="website-content">
+              <div class="description">
+                <h4 class="project-text">
+                  My personal website where I host all of my projects.
+                </h4>
+                <h4 class="project-text">Built using HTML and CSS.</h4>
+                <a href="https://sdbncode.github.io/SdbnCode/" target="_blank">
+                  <button type="button" class="button">Visit Project</button>
+                </a>
+              </div>
+              <div class="photo">
+                <img
+                  class="site"
+                  src="./image/website.jpg"
+                  alt="picture of personal website"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="project-item-alt">
+            <h3>NASA Space Challenge</h3>
+            <div class="website-content">
+              <div class="description">
+                <h4 class="project-text">
+                  Collaborated with a team to create a browser game aimed at
+                  promoting interest in space exploration.
+                </h4>
+                <h4 class="project-text">
+                  Leveraged HTML, CSS, and JavaScript to develop customization
+                  features and interactive web page elements.
+                </h4>
+                <a
+                  href="https://syndicategit.github.io/NASA_Hackathon_HDSRLP/"
+                  target="_blank"
+                >
+                  <button type="button" class="button-alt">
+                    Visit Project
+                  </button>
+                </a>
+              </div>
+              <div class="photo">
+                <img
+                  class="site-alt"
+                  src="./image/nasachallenge.png"
+                  alt="picture of Nasa Space Challenge"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div id="contact">
+          <h2>Contact Me</h2>
+          <a
+            href="https://www.linkedin.com/in/stevendbnguyen/"
+            class="contact-links"
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://www.linkedin.com/in/stevendbnguyen/</a
+          >
+          <a
+            href="https://github.com/SdbnCode"
+            class="contact-links"
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://github.com/SdbnCode</a
+          >
+        </div>
+      </div>
     </div>
-</body>
+  </body>
+</html>
